@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: 'Quicksand', sans-serif !important;
+    background-color: #d1d0ce;
+}
+#nav{
+    left: 0;
+    margin: 0px;
+    min-height: 70px;
+}
+#footer{
+    background-color: black;
+    color: blanchedalmond;
+    
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.over{
+    overflow: hidden;
+}
+/* try */
+.row1{
+    display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+  flex-grow:1;
+  justify-content: flex-start;
+  padding: 0px 40px;
+  
+  }
+  .card-st {
+    overflow: hidden;
+      max-width: 300px;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px;
+      border: 5px solid #A9A9A9;
+      padding: 20px;
+      background: white;
+  }
+  .max-height-st {
+    max-height: 420px;
+  }
+#icons i{
+    margin-right: 10px;
+}
+
+#courses a:link,#courses a:visited{
+    text-decoration: none;
+    color: white;
+}
+#footer a:link,#footer a:visited{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.abc{
+    padding-left: 5em;
+}
+@media (max-width: 600px) {
+    #abc{
+        
+        display:block;
+        padding: none;
+    }
+    .abc{
+        
+        display: flex;
+        padding: 0;
+        
+    }
+
+
+}
+  
+#profile{
+    width: inherit;
+    height: auto;
+}
+.car_imgs{
+    width: 100%;
+    height: 500px;
+}
+#carousel{
+    margin-bottom: 100px;
+}
+@media screen and (max-width : 992px){
+    .car_imgs{
+        width: 100%;
+        height: auto;
+    }
+    #carousel{
+        margin-bottom: 0px;
+    }
+
+}
+#cap-l{
+    margin-right: auto;
+}
+
+
+.border-l{
+    
+    padding-inline-start: 10px;
+    border-left: 3px solid 		#006400;
+    
+}
+h5.border-l:hover{
+    background-color: #88ce98;
+    color: white;
+}
+.bg-white{
+    background-color: #dddfdf;
+}
+.info{
+    background-color: aqua;
+    color: black;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 10px px;
+
+}
+h2{
+    font-weight: bolder;
+}
+#faculty h3{
+    
+    font-weight: bold;
+    color: #333;
+}
+#faculty h5{
+    font-weight: bold;
+    color: #7B7D7D;
+}
+
+
+#faculty img{
+    
+    width: 50%;
+    height: 125px;
+    object-fit: fill;
+}
+}
+#faculty p{
+    font-weight: 500;
+}
+/* #faculty .card:hover,#faculty .card-body:hover{
+    background-color: #88ce98;
+    color: #ffffff;
+    border: 2px solid #88ce98;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 10px 6px 0px rgba(0,100,0,1);
+    -moz-box-shadow: 7px 10px 6px 0px rgba(0,100,0,1);
+    box-shadow: 7px 10px 6px 0px rgba(0,100,0,1);
+} */
+#faculty .card:hover,#faculty .card-body:hover{
+    background-color: #f69314;
+    color: #ffffff;
+    
+    border: 2px solid #f69314;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 3px 6px 3px rgba(255,39,21,0.69); 
+    box-shadow: 7px 3px 6px 3px rgba(255,39,21,0.69);
+}
+#faculty .card-body:hover>h3,#faculty .card-body:hover>h5{
+    color:#ffffff;
+}
+.margin-t{
+    margin-top: -30px;
+}
+.promo{
+    background-color: #0f0120;
+    color: white;
+    max-height: 500px;
+    margin-bottom: 50px;
+}
+.promo h3{
+    margin-top: 1.5rem;
+}
+#faculty .card{
+    border: 2px solid #88ce98;
+    border-radius: 5px;
+}
+#director{
+    height: auto;
+    width: 100%;
+    border: 0px solid white;
+    border-radius: 5px;
+    
+}
+.msg{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+#msg1::before{
+    content: open-quote;
+}
+#msg2::after{
+    content: close-quote;
+}
+#jumbotron{
+    background-image: url(Images/home/about-us.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+}
+hr{
+    margin-left: 5%;
+    height: 5px;
+    background: linear-gradient(to left,green,blue);
+    width: 90%;
+}
